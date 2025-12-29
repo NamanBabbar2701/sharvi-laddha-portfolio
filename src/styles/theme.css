@@ -1,0 +1,15 @@
+:root {
+  --primary: #2A3140;
+  --accent: #D9A773;
+  --light: #2A3140;
+  --dark: #ffffff;
+  --text-light: #e5e5e5;
+  --surface: rgba(255, 255, 255, 0.07);
+  --surface-strong: rgba(255, 255, 255, 0.12);
+  --border: rgba(255, 255, 255, 0.18);
+}
+
+body {
+  background-color: var(--light);
+  color: var(--dark);
+}

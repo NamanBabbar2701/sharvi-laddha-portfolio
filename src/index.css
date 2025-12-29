@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lora:wght@400;500;600;700&display=swap');
+@import './styles/theme.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--light);
+}
+
+body {
+  margin: 0;
+  font-family: 'Lora', 'Georgia', serif;
+  min-height: 100vh;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+::selection {
+  background-color: rgba(217, 167, 115, 0.4);
+  color: var(--dark);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@layer base {
+  body {
+    @apply bg-light text-dark;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply py-16 px-4 sm:px-6 lg:px-12;
+  }
+
+  .glass-panel {
+    background: var(--surface);
+    @apply backdrop-blur-glass border border-white/10 rounded-3xl shadow-soft;
+  }
+
+  .tag {
+    @apply inline-flex items-center gap-2 text-xs font-semibold tracking-wide uppercase text-dark px-3 py-1 rounded-full;
+    background-color: var(--surface-strong);
+    border: 1px solid var(--border);
+  }
+}
