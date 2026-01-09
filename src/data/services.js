@@ -4,7 +4,8 @@ import {
   RiQuillPenLine,
   RiPaletteLine,
   RiSparklingLine,
-  RiLayout3Line,
+  RiLayoutGridLine,
+  RiBookLine,
   RiMailSendLine,
   RiBarChart2Line,
 } from 'react-icons/ri'
@@ -37,9 +38,14 @@ export const services = [
     icon: RiSparklingLine,
   },
   {
-    title: 'Flyers / Brochures',
-    description: 'Print-ready collateral that balances visual hierarchy with clarity.',
-    icon: RiLayout3Line,
+    title: 'Flyers',
+    description: 'Print-ready flyer designs focused on visual hierarchy, clarity, and quick audience engagement.',
+    icon: RiLayoutGridLine,
+  },
+  {
+    title: 'Brochures',
+    description: 'Structured, multi-page brochure layouts designed to present detailed information with clear visual flow.',
+    icon: RiBookLine,
   },
   {
     title: 'Newsletters',
@@ -52,6 +58,7 @@ export const services = [
     icon: RiBarChart2Line,
   },
 ]
+
 
 
 

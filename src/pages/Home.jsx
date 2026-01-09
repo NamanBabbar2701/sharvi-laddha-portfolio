@@ -3,7 +3,6 @@ import Hero from '../components/Hero'
 import About from '../components/About'
 import Services from '../components/Services'
 import Projects from '../components/Projects'
-import ContactForm from '../components/ContactForm'
 import Footer from '../components/Footer'
 
 const Home = () => (
@@ -14,7 +13,6 @@ const Home = () => (
       <About />
       <Services />
       <Projects />
-      <ContactForm />
     </main>
     <Footer />
   </div>

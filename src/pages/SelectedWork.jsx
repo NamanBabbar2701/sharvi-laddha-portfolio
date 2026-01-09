@@ -76,7 +76,9 @@ const SelectedWork = () => {
         </section>
 
         {/* Work Sections */}
-        {workSections.map((section, sectionIndex) => (
+        {workSections
+          .filter((section) => section.id !== 'branding-kit' && section.id !== 'flyer-design')
+          .map((section, sectionIndex) => (
           <section
             key={section.id}
             id={section.id}
@@ -139,6 +141,36 @@ const SelectedWork = () => {
                     </motion.div>
                   ))}
                 </motion.div>
+              ) : section.id === 'newsletter-design' ? (
+                <motion.div
+                  className="mb-10 flex justify-center"
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.4 + sectionIndex * 0.1, duration: 0.6 }}
+                >
+                  {section.images.map((image, imageIndex) => (
+                    <motion.div
+                      key={imageIndex}
+                      className="group relative overflow-hidden rounded-2xl border border-border bg-surface shadow-soft cursor-pointer max-w-md"
+                      initial={{ opacity: 0, y: 20 }}
+                      animate={{ opacity: 1, y: 0 }}
+                      transition={{
+                        delay: 0.5 + sectionIndex * 0.1 + imageIndex * 0.05,
+                        duration: 0.5,
+                      }}
+                      whileHover={{ scale: 1.02 }}
+                      onClick={() => handleImageClick(image)}
+                    >
+                      <div className="relative aspect-[4/5] overflow-hidden">
+                        <img
+                          src={image}
+                          alt={`${section.title}${section.subtitle ? ` - ${section.subtitle}` : ''} - Sample ${imageIndex + 1}`}
+                          className="h-full w-full object-cover object-center transition duration-500 group-hover:scale-110"
+                        />
+                      </div>
+                    </motion.div>
+                  ))}
+                </motion.div>
               ) : (
                 <motion.div
                   className="mb-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
@@ -168,6 +200,25 @@ const SelectedWork = () => {
                       </div>
                     </motion.div>
                   ))}
+                </motion.div>
+              )}
+
+              {/* Newsletter External Link (only for Newsletter Design section) */}
+              {section.id === 'newsletter-design' && section.externalLink && (
+                <motion.div
+                  className="text-center mt-6"
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.8 + sectionIndex * 0.1, duration: 0.6 }}
+                >
+                  <a
+                    href={section.externalLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center text-sm font-medium text-accent transition-opacity duration-300 hover:opacity-80"
+                  >
+                    View Newsletter
+                  </a>
                 </motion.div>
               )}
 

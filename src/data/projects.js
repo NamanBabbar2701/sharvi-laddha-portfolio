@@ -1,22 +1,28 @@
+import instagramCarouselImage from '../assets/igcarousel/c1/photo2.png'
+import reelEditingImage from '../assets/reels/reel1image.png'
+import brandingKitImage from '../assets/logo/Logo.png'
+import newsletterDesignImage from '../assets/newsletter/newsletter_1.jpeg'
+import infographicsImage from '../assets/infographics/infographic2.jpeg'
+
 export const projects = [
   {
     title: 'Instagram Carousel Pack',
     description: 'Story-driven carousel templates crafted for weekly campaign drops.',
-    image: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80',
+    image: instagramCarouselImage,
     tags: ['Instagram', 'Strategy'],
     slug: 'instagram-carousel',
   },
   {
     title: 'Theme-based Reel Edits',
     description: 'Cinematic reel cuts with transitions synced to trending audio cues.',
-    image: 'https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?auto=format&fit=crop&w=900&q=80',
+    image: reelEditingImage,
     tags: ['Video', 'Reels'],
     slug: 'reel-editing',
   },
   {
     title: 'Brand Logo Collection',
     description: 'Minimal wordmarks and icons for lifestyle, wellness, and fashion labels.',
-    image: 'https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?auto=format&fit=crop&w=900&q=80',
+    image: brandingKitImage,
     tags: ['Branding'],
     slug: 'branding-kit',
   },
@@ -30,14 +36,14 @@ export const projects = [
   {
     title: 'Newsletter Design',
     description: 'Modular newsletter blocks focused on clarity, rhythm, and narrative.',
-    image: 'https://images.unsplash.com/photo-1472437774355-71ab6752b434?auto=format&fit=crop&w=900&q=80',
+    image: newsletterDesignImage,
     tags: ['Email', 'Content'],
     slug: 'newsletter-design',
   },
   {
     title: 'Content Strategy Layout',
     description: 'Notion-inspired boards aligning campaign goals, hooks, and deliverables.',
-    image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80',
+    image: infographicsImage,
     tags: ['Strategy', 'Planning'],
     slug: 'infographics',
   },

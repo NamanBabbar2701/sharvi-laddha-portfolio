@@ -92,6 +92,15 @@ const ReelPreview = ({ videoSrc, externalLink, poster }) => {
             </div>
           </div>
         )}
+        
+        {/* Tap to watch full video text overlay */}
+        {!isPlaying && (
+          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 transition-opacity duration-300 pointer-events-none">
+            <p className="text-xs text-white/80 font-medium">
+              Tap to watch full video
+            </p>
+          </div>
+        )}
       </div>
     </div>
   )

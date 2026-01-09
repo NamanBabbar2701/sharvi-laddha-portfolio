@@ -111,6 +111,7 @@ export const workSections = [
     description: 'Modular newsletter blocks focused on clarity, rhythm, and narrative, ensuring engaging communication with subscribers.',
     images: [newsletter1      
     ],
+    externalLink: 'https://tinyurl.com/newsletter1portfolio',
     showInstagramButton: false,
   },
   {

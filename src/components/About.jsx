@@ -23,7 +23,9 @@ const About = () => (
       </div>
 
       <motion.a
-        href="#contact"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSde5eRARppW2UWJe04RFR8oQ5vF9tAoyAsL-vv3LbadIyYf5A/viewform?usp=sharing&ouid=109562173839271511931"
+        target="_blank"
+        rel="noopener noreferrer"
         className="mt-12 inline-block rounded-full bg-accent px-8 py-3 font-serif text-sm font-semibold text-primary transition hover:opacity-90 uppercase tracking-wide"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
