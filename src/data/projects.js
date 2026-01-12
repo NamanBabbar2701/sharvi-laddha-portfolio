@@ -1,6 +1,7 @@
 import instagramCarouselImage from '../assets/igcarousel/c1/photo2.png'
 import reelEditingImage from '../assets/reels/reel1image.png'
 import brandingKitImage from '../assets/logo/Logo.png'
+import brochureDesignImage from '../assets/brochure/br1.png'
 import newsletterDesignImage from '../assets/newsletter/newsletter_1.jpeg'
 import infographicsImage from '../assets/infographics/infographic2.jpeg'
 
@@ -27,11 +28,11 @@ export const projects = [
     slug: 'branding-kit',
   },
   {
-    title: 'Aesthetic Flyers',
-    description: 'Soft gradients, typography pairings, and refined layouts for events.',
-    image: 'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80',
+    title: 'Brochure Design',
+    description: 'Thoughtfully structured brochure layouts designed to present detailed information with clarity, hierarchy, and visual flow.',
+    image: brochureDesignImage,
     tags: ['Print', 'Layout'],
-    slug: 'flyer-design',
+    slug: 'brochure-design',
   },
   {
     title: 'Newsletter Design',

@@ -19,11 +19,18 @@ import reel1 from '../assets/reels/reel1.mp4'
 import reel2 from '../assets/reels/reel2.mp4'
 import reel3 from '../assets/reels/reel3.mp4'
 
-//Poster Section
-import poster1 from '../assets/poster/poster1.jpeg'
-import poster2 from '../assets/poster/poster2.jpeg'
-import poster3 from '../assets/poster/poster3.jpeg'
+//Branding Kit Section
+import logo1 from '../assets/logo/Logo.png'
+import brandPoster from '../assets/logo/brand_poster.jpg'
 
+// //Poster Section
+// import poster1 from '../assets/poster/poster1.jpeg'
+// import poster2 from '../assets/poster/poster2.jpeg'
+// import poster3 from '../assets/poster/poster3.jpeg'
+
+//Brochure Section
+import brochure1 from '../assets/brochure/br1.png'
+import brochure2 from '../assets/brochure/br2.png'
 //Newsletter Section
 import newsletter1 from '../assets/newsletter/newsletter_1.jpeg'
 
@@ -75,33 +82,23 @@ export const workSections = [
       },
     ],
     externalLink: 'https://instagram.com/p/placeholder-reel',
-    showInstagramButton: true,
+    showInstagramButton: false,
   },
   {
     id: 'branding-kit',
     title: 'Branding Kit',
     description: 'Minimal wordmarks and icons for lifestyle, wellness, and fashion labels, crafted for brand consistency.',
     images: [
-      'https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1558655146-364adaf1fcc9?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=900&q=80',
+      logo1, brandPoster,
     ],
     showInstagramButton: false,
   },
   {
-    id: 'flyer-design',
-    title: 'Flyer Design',
-    description: 'Soft gradients, typography pairings, and refined layouts for events, designed to capture attention and communicate key information.',
+    id: 'brochure-design',
+    title: 'Brochure Design',
+    description: 'Thoughtfully structured brochure layouts designed to present detailed information with clarity, hierarchy, and visual flow.',
     images: [
-      'https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=80',
-      'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&w=900&q=80',
+      brochure1, brochure2,
     ],
     showInstagramButton: false,
   },
@@ -130,7 +127,7 @@ export const projectToSectionMap = {
   'instagram-carousel': 'instagram-carousel-1',
   'reel-editing': 'reel-editing',
   'branding-kit': 'branding-kit',
-  'flyer-design': 'flyer-design',
+  'brochure-design': 'brochure-design',
   'newsletter-design': 'newsletter-design',
   'infographics': 'infographics',
 }
