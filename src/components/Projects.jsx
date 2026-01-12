@@ -6,7 +6,7 @@ import { projectToSectionMap } from '../data/workData'
 const Projects = () => (
   <section id="projects" className="section-padding">
     <div className="mx-auto max-w-5xl text-center">
-      <p className="tag mx-auto">Selected Work</p>
+      <p className="tag mx-auto">My Projects</p>
       <h2 className="text-3xl font-semibold text-dark">Recent projects & explorations</h2>
       <p className="mx-auto mt-3 max-w-2xl text-base text-dark/70">
         A peek into strategies, visuals, and systems that helped brands show up consistently and
@@ -46,9 +46,21 @@ const Projects = () => (
         )
       })}
     </div>
+
+    {/* Centered CTA Button */}
+    <div className="mt-12 flex justify-center">
+      <motion.a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSde5eRARppW2UWJe04RFR8oQ5vF9tAoyAsL-vv3LbadIyYf5A/viewform?usp=sharing&ouid=109562173839271511931"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-block rounded-full bg-accent px-8 py-3 font-serif text-sm font-semibold text-primary transition hover:opacity-90 uppercase tracking-wide"
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+      >
+        Let's Connect
+      </motion.a>
+    </div>
   </section>
 )
 
 export default Projects
-
-

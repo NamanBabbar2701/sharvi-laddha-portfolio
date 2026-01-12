@@ -6,7 +6,7 @@ const navLinks = [
   { label: 'Home', href: '/#hero' },
   { label: 'About', href: '/#about' },
   { label: 'Services', href: '/#services' },
-  { label: 'Selected Work', href: '/selected-work' },
+  { label: 'My Project', href: '/selected-work' },
 ]
 
 const Navbar = () => {
@@ -169,7 +169,6 @@ const Navbar = () => {
               href="mailto:sharviladdha.work@gmail.com"
               className="text-xs text-dark/60 transition hover:text-dark/80"
             >
-              Or email me directly
             </a>
           </div>
         </div>

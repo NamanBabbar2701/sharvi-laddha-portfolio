@@ -42,8 +42,8 @@ export const projects = [
     slug: 'newsletter-design',
   },
   {
-    title: 'Content Strategy Layout',
-    description: 'Notion-inspired boards aligning campaign goals, hooks, and deliverables.',
+    title: 'Infographics Design',
+    description: 'Insight-led visuals that transform data and ideas into easy-to-understand, aesthetically structured stories.',
     image: infographicsImage,
     tags: ['Strategy', 'Planning'],
     slug: 'infographics',

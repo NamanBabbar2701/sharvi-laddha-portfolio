@@ -15,10 +15,10 @@ const About = () => (
       
       <div className="mx-auto space-y-6 text-center font-serif text-base leading-relaxed text-dark/90 sm:text-lg lg:max-w-[60%]">
         <p>
-          Sharvi Laddha is a content creator and social media manager based in India. She helps brands grow through aesthetic visuals, engaging storytelling, and modern content strategies. She specializes in designing, editing, and managing impactful digital content for businesses of all kinds.
+          I am a content creator and social media manager based in India. I help brands grow through aesthetic visuals, engaging storytelling, and modern content strategies. I specializes in designing, editing, and managing impactful digital content for businesses of all kinds.
         </p>
         <p>
-          Her work includes social media posts, flyers, brochures, newsletters, video reels, and branding assets. She loves bringing creative ideas to life, helping brands connect with their audiences through thoughtful design and communication.
+          My work includes social media posts, flyers, brochures, newsletters, video reels, and branding assets. I loves bringing creative ideas to life, helping brands connect with their audiences through thoughtful design and communication.
         </p>
       </div>
 

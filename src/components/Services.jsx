@@ -4,7 +4,7 @@ import { services } from '../data/services'
 const Services = () => (
   <section id="services" className="section-padding">
     <div className="mx-auto max-w-5xl text-center">
-      <p className="tag mx-auto">Capabilities</p>
+      <p className="tag mx-auto">Services</p>
       <h2 className="text-3xl font-semibold text-dark">Services that keep your feed alive</h2>
       <p className="mx-auto mt-3 max-w-2xl text-base text-dark/70">
         Modular service offerings to support social-first campaigns, product drops, and evergreen
