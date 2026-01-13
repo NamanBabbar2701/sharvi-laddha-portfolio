@@ -24,7 +24,7 @@ const Hero = () => (
 
     {/* Text Overlay - Positioned on top of image */}
     <motion.div
-      className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6"
+      className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6 mt-40"
       initial="hidden"
       animate="visible"
       variants={heroVariants}
