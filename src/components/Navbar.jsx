@@ -258,7 +258,6 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="text-xs text-dark/60 transition hover:text-dark/80"
               >
-                Or email me directly
               </a>
             </div>
           </div>
